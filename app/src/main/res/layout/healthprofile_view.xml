@@ -1,0 +1,223 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.pes.laresistencia.profile.UserPersonalFragment"
+    android:orientation="vertical">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="?attr/actionBarSize"
+            android:id="@+id/healthprofile_layout"
+            android:orientation="vertical"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+
+            <TextView
+                android:id="@+id/info_med"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/No_info"
+                android:textStyle="bold"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="20dp"
+                android:textSize="15sp"
+                android:textColor="@color/colorDivider"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp">
+
+                <TextView
+                    android:id="@+id/w_tit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="20dp"
+                    android:textColor="@color/colorTitle"
+                    android:layout_centerVertical="true"
+                    android:textSize="15sp"
+                    android:text="@string/weight"
+                    android:layout_toStartOf="@+id/weight"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/weight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="40dp"
+                    android:ellipsize="end"
+                    android:maxLength="22"
+                    android:maxLines="1"
+                    android:text="weight"
+                    android:textColor="@color/colorTitle"
+                    android:textSize="15sp" />
+
+            </RelativeLayout>>
+
+            <View
+                android:id="@+id/line_1"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:background="@color/colorDivider">
+            </View>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp">
+
+                <TextView
+                    android:id="@+id/h_tit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="20dp"
+                    android:textColor="@color/colorTitle"
+                    android:layout_centerVertical="true"
+                    android:textSize="15sp"
+                    android:text="@string/height"
+                    android:layout_toStartOf="@+id/height"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/height"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="40dp"
+                    android:ellipsize="end"
+                    android:maxLength="22"
+                    android:maxLines="1"
+                    android:text="height"
+                    android:textColor="@color/colorTitle"
+                    android:textSize="15sp" />
+
+            </RelativeLayout>>
+
+            <View
+                android:id="@+id/line_2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:background="@color/colorDivider">
+            </View>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp">
+
+                <TextView
+                    android:id="@+id/b_tit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="20dp"
+                    android:textColor="@color/colorTitle"
+                    android:layout_centerVertical="true"
+                    android:textSize="15sp"
+                    android:text="@string/bloodType"
+                    android:layout_toStartOf="@+id/bloodType"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/bloodType"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="40dp"
+                    android:ellipsize="end"
+                    android:maxLength="22"
+                    android:maxLines="1"
+                    android:text="bloodType"
+                    android:textColor="@color/colorTitle"
+                    android:textSize="15sp" />
+
+            </RelativeLayout>>
+
+            <View
+                android:id="@+id/line_3"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:background="@color/colorDivider">
+            </View>
+
+            <TextView
+                android:id="@+id/a_tit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/allergies_names"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="20dp"
+                android:textSize="15sp"
+                android:textColor="@color/colorTitle"/>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/allergies_recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:scrollbars="vertical"/>
+
+            <View
+                android:id="@+id/line_4"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:background="@color/colorDivider">
+            </View>
+
+            <TextView
+                android:id="@+id/d_tit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/diseases_names"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="20dp"
+                android:textSize="15sp"
+                android:textColor="@color/colorTitle"/>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/diseases_recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:scrollbars="vertical"/>
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

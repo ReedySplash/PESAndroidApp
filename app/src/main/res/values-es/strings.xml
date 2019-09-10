@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">API</string>
+
+    <string name="error_noInternet">No hay conexión a internet</string>
+    <string name="error_internal">Sin conexión o error interno</string>
+    <string name="loading">Cargando…</string>
+    <string name="login_progress">Iniciando sesión, espera...</string>
+    <string name="infoUser_progress">Obteniendo tu información, espera...</string>
+    <string name="register_progress">Registrando, espera...</string>
+
+    <string name="register_title">Registro</string>
+    <string name="register_button">REGISTRAR</string>
+    <string name="register_name">Nombre</string>
+    <string name="register_name_example">Roger</string>
+    <string name="register_surname_example">García</string>
+    <string name="register_surname">Apellido</string>
+    <string name="register_password">Contraseña</string>
+    <string name="register_repeat_password">Repite la nueva contraseña</string>
+    <string name="register_email">Correo</string>
+    <string name="register_email_example">ejemplo@ejemplo.com</string>
+    <string name="register_gender">Género</string>
+    <string name="register_birthdate">Fecha de nacimiento</string>
+    <string name="register_birthdate_accept">Aceptar</string>
+    <string name="register_birthdate_cancel">Cancelar</string>
+    <string name="register_image_descr">Foto de perfil</string>
+    <string name="register_country">País</string>
+    <string name="register_country_example">Francia</string>
+    <string name="register_password_not_match">Las contraseñas no coinciden</string>
+    <string name="register_email_not_valid">Correo no válido</string>
+    <string name="register_date_not_valid">Fecha no válida</string>
+    <string name="register_country_not_valid">País no válido</string>
+    <string name="register_missing_parameters">Faltan parámetros</string>
+    <string name="register_repeated_user">El usuario ya existe</string>
+    <string name="register_birthdate_selection">Seleccione una fecha</string>
+    <string name="register_button_dialog">Aceptar</string>
+    <string name="register_name_required">Nombre requerido</string>
+    <string name="register_surname_required">Apellido requerido</string>
+    <string name="register_country_required">País requerido</string>
+    <string name="register_email_required">Correo requerido</string>
+    <string name="register_password_required">Contraseña requerida</string>
+    <string name="register_correct">Cuenta creada</string>
+    <string-array name="register_gender">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+
+    <string name="login_mail">Correo</string>
+    <string name="login_password">Contraseña</string>
+    <string name="login_button">INICIAR SESIÓN</string>
+    <string name="login_register_button">REGISTRAR</string>
+    <string name="login_create_account"><u>¿No tienes cuenta? ¡Créala!</u></string>
+    <string name="login_server_error">Error en el servidor</string>
+    <string name="login_incorrect_parameters">Parámetros incorrectos</string>
+
+    <string name="translator_textToTranslate">Escribe el texto que quieres traducir</string>
+    <string name="translator_title">Traductor</string>
+    <string name="translator_textTranslated">Texto traducido</string>
+    <string name="yandex">Powered by Yandex.Translate</string>
+    <string name="translator_languageFrom">Spanish</string>
+    <string name="translator_languageTo">English</string>
+    <string name="translator_missingText">Texto vacío</string>
+    <string name="translator_invalidkey">API key inválida</string>
+    <string name="translator_blockedkey">API key bloqueada</string>
+    <string name="translator_limitDaily">No se puede traducir más por hoy</string>
+    <string name="translator_textSize">Exceso de carácteres</string>
+    <string name="translator_textNoTranslate">No se puede traducir</string>
+    <string name="translator_direction">Error en la URL</string>
+    <string name="button_translate">TRADUCIR</string>
+
+
+
+    <string name="google_maps_key">AIzaSyC3tgwxB61WO2bVU_rH-LHDv-3SFrHjaU0</string>
+    <string name="location_title">Localización</string>
+    <string name="location_filter_options"><b>Filtros de localización</b></string>
+    <string name="location_filter_food">Comida</string>
+    <string name="location_filter_lodging">Hospedaje</string>
+    <string name="location_filter_clothes">Ropa</string>
+    <string name="location_filter_hygiene">Higiene</string>
+    <string name="location_filter_medicine">Medicina</string>
+    <string name="location_button_apply">APLICAR</string>
+    <string name="location_error_occurred">Ha habido un error, vuelve a intentarlo más tarde</string>
+
+    <string name="navigation_drawer_open">Abrir cajón de navegación</string>
+    <string name="navigation_drawer_close">Cerrar cajón de navegación</string>
+
+    <string name="action_settings">Ajustes</string>
+    <string name="action_filter">Filtro</string>
+    <string name="action_closeSession">Cerrar sesión</string>
+    <string name="action_search">Buscar</string>
+    <string name="menu_location">Localización</string>
+    <string name="menu_chat">Chat</string>
+    <string name="menu_activities">Actividades</string>
+    <string name="menu_settings">Ajustes</string>
+    <string name="menu_translator">Traductor</string>
+    <string name="menu_profile">Perfil</string>
+
+
+    <string name="edit_title">Perfil</string>
+    <string name="edit_change_button">Cambiar</string>
+    <string name="delete_dialog_title">Eliminar cuenta</string>
+    <string name="edit_delete_button">Eliminar cuenta</string>
+    <string name="edit_change_password">Nueva contraseña</string>
+    <string name="change_password_original">Contraseña original</string>
+    <string name="edit_change_password_repeat">Repite la nueva contraseña</string>
+    <string name="original_password_requiered">Contraseña original repetida</string>
+    <string name="new_password_requiered">Nueva contraseña requerida</string>
+    <string name="repeated_password_required">Por favor, repite la nueva contraseña</string>
+    <string name="password_not_equal_error">Las nuevas contraseñas no coinciden</string>
+    <string name="password_original_not_equal">Contraseña original errónea</string>
+    <string name="edit_delete_account">Eliminar cuenta</string>
+    <string name="edit_delete_account_text">¿Estás seguro que deseas eliminar tu cuenta? Esta acción no se podrá deshacer.</string>
+    <string name="negative_delete_button">No</string>
+    <string name="affirmative_delete_account">Eliminar</string>
+    <string name="negative_delete_account">Cancelar</string>
+    <string name="get_info_usuari">/user/</string>
+    <string name="password_changed">Contraseña cambiada</string>
+    <string name="password_changed_error">Error en el servidor</string>
+    <string name="image_changed">Imagen cambiada correctamente</string>
+
+    <string name="profile_gender_title">Género</string>
+    <string name="profile_country_title">País</string>
+    <string name="profile_birthdate_title">Fecha nacimiento</string>
+    <string name="profile_email_title">Correo</string>
+    <string name="profile_name_title">Nombre</string>
+    <string name="upload_profile_picture">Subiendo foto</string>
+    <string name="profile_personal_title">Personal</string>
+    <string name="profile_medical_title">Sanidad</string>
+
+    <string name="chat_title">Chats</string>
+    <string name="xat_enterMessage">Escribe un mensaje</string>
+    <string name="listchats_error">Error obteniendo los mensajes</string>
+    <string name="listchats_noFriends">No hay nada que mostrar en este momento</string>
+    <string name="listchats_noInternet">No hay conexión</string>
+    <string name="listchats_search">Buscar</string>
+    <string name="listchats_accept">Aceptar</string>
+    <string name="listchats_deny">Denegar</string>
+    <string name="listchats_add">Añadir</string>
+    <string name="profile_title">Perfil</string>
+    <string name="profile_safeButton">Guardar cambios</string>
+    <string name="profile_errorSaving">Error en el guardado</string>
+    <string name="change_password">Cambiar contraseña</string>
+    <string name="config_delete">Eliminar cuenta</string>
+    <string name="config_delete_account">Eliminar</string>
+    <string name="config_delete_account_title">Eliminar cuenta</string>
+    <string name="new_pass_not_equal">Las nuevas contraseñas no coinciden</string>
+    <string name="repeated_password_requiered">Repite la contraseña</string>
+    <string name="change_password_progress">Cambiando la contraseña…</string>
+    <string name="config_language">Idioma</string>
+    <string name="edit_new_password">Nueva contraseña</string>
+    <string name="change_password_button">Cambiar</string>
+    <string name="config_title">Ajustes</string>
+    <string name="delete_account">Eliminando la cuenta…</string>
+    <string name="language_spanish">Español (España)</string>
+    <string name="language_catalan">Català</string>
+    <string name="language_english">English (United Kingdom)</string>
+    <string name="config_languages">Cambiar idioma</string>
+    <string name="get_other_info_usuari">Obteniendo la información...</string>
+    <string name="status_friendly">Amistad</string>
+    <string name="request_friendship">Solicitar amistad</string>
+    <string name="accept_friendly">Aceptar</string>
+    <string name="sending_friendly_request">Enviando solicitud…</string>
+    <string name="sending_friendly_settle">Estableciendo amistad…</string>
+    <string name="friendly_settled">SETTLED</string>
+    <string name="friendly_pending">PENDING</string>
+    <string name="friendly_none">NONE</string>
+    <string name="friendly_to_accept">TO_ACCEPT</string>
+    <string name="other_profile_tilte">Perfil externo</string>
+    <string name="enter_actual_password">Por favor, escribe tu contraseña</string>
+    <string name="enter_new_password">Por favor, escribe tu nueva contraseña</string>
+    <string name="listchats_cancel">Cancelar</string>
+    <string name="cancel_request">Cancelar solicitud</string>
+    <string name="canceling_friendly">Cancelando solicitud…</string>
+    <string name="status_friendhip">Amistad</string>
+    <string name="accept_friendship">Aceptar</string>
+
+
+
+    <string name="activity_description_tab">Descripción</string>
+    <string name="activity_comments_tab">Comentarios</string>
+    <string name="activity_add_calendar">Añadir al calendario</string>
+    <string name="activity_not_load">No se puede cargar la actividad</string>
+    <string name="activity_delete_comment_title">Eliminar comentario</string>
+    <string name="activity_delete_comment_description">¿Estás seguro de que quieres eliminar el comentario? Esta acción no se podrá deshacer.</string>
+    <string name="activity_delete_button">Eliminar</string>
+    <string name="activity_cancel_button">Cancelar</string>
+
+
+    <string name="list_activities_title">Lista de actividades</string>
+    <string name="list_activities_not_load">No se pueden cargar las actividades</string>
+
+    <string name="add_comment">Añadir comentario…</string>
+    <string name="activity_comment_error">No se ha podido añadir el comentario</string>
+    <string name="activity_get_comment_error">No se han podido coger los comentarios</string>
+    <string name="language_changed">Idioma cambiado</string>
+    <string name="language_selected">Español (España)</string>
+
+    <string name="health_profile_title">Perfil de sanidad</string>
+    <string name="allergies_names">Alergias</string>
+    <string name="diseases_names">Enfermedades</string>
+    <string name="weight">Peso</string>
+    <string name="height">Altura</string>
+    <string name="bloodType">Grupo sanguíneo</string>
+
+    <string name="Friends">Amigos</string>
+    <string name="Pending">Pendientes</string>
+    <string name="Others">Otros</string>
+    <string name="activity">Actividad</string>
+    <string name="menu_about">Acerca de</string>
+    <string name="about">API, Ajuda per Immigrants, es una aplicación de Android para inmigrantes que tienen dificultades en la integración en la sociedad debido a las diferencias en el lenguaje, cultura, educación...\n\nLa app ha sido creada por un grupo de usuarios de la UPC que quieren hacer del mundo un lugar mejor.</string>
+</resources>

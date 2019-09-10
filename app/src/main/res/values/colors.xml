@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00ace6</color>
+    <color name="colorPrimaryDark">#0099cc</color>
+    <color name="colorAccent">#00FF7F</color>
+    <color name="colorButtons">#FFFFFF</color>
+    <color name="colorTitle">#333333</color>
+    <color name="colorText">#555555</color>
+    <color name="colorBackgroundBlueSoft">#E6F7FF</color>
+    <color name="colorCreateAccount">#0041c4</color>
+    <color name="colorDelete">#DC4040</color>
+    <color name="colorGreen">#33cc88</color>
+    <color name="colorLine">#dfdfdf</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBackgroundSender">#c6e4ff</color>
+    <color name="colorBackgroundReceiver">#dfdfdf</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorMessage">#f9f9f9</color>
+    <color name="colorDivider">#BBBBBB</color>
+    <color name="colorActivity"><strong>#000000</strong></color>
+    <color name="colorBackgroundDate">#EEEEEE</color>
+    <color name="colorGradientActivity1">#0000</color>
+    <color name="colorGradientActivity2">#B000</color>
+    <color name="colorGradientActivity3">#9000</color>
+</resources>

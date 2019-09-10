@@ -1,0 +1,281 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.pes.laresistencia.profile.UserPersonalFragment"
+    android:orientation="vertical">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="15dp">
+
+                <ImageView
+                    android:id="@+id/name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="24dp"
+                    android:src="@drawable/ic_name" />
+
+                <TextView
+                    android:id="@+id/profile_frag_name_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/name"
+                    android:layout_marginStart="20dp"
+                    android:textColor="@color/colorTitle"
+                    android:layout_centerVertical="true"
+                    android:textSize="15sp"
+                    android:text="@string/profile_name_title"
+                    android:layout_toStartOf="@+id/profile_frag_name"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/profile_frag_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="40dp"
+                    android:ellipsize="marquee"
+                    android:singleLine="true"
+                    android:text="John Doe"
+                    android:textColor="@color/colorTitle"
+                    android:textSize="15sp" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:background="@color/colorDivider">
+            </View>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp">
+
+                <ImageView
+                    android:id="@+id/gender"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="24dp"
+                    android:src="@drawable/ic_gender" />
+
+                <TextView
+                    android:id="@+id/profile_frag_gender_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/gender"
+                    android:layout_marginStart="20dp"
+                    android:textColor="@color/colorTitle"
+                    android:layout_centerVertical="true"
+                    android:textSize="15sp"
+                    android:text="@string/profile_gender_title"
+                    android:layout_toStartOf="@+id/profile_frag_gender"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/profile_frag_gender"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="40dp"
+                    android:ellipsize="end"
+                    android:maxLength="22"
+                    android:maxLines="1"
+                    android:text="Male"
+                    android:textColor="@color/colorTitle"
+                    android:textSize="15sp" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:background="@color/colorDivider">
+            </View>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp">
+
+                <ImageView
+                    android:id="@+id/country"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="24dp"
+                    android:src="@drawable/ic_country" />
+
+                <TextView
+                    android:id="@+id/profile_frag_country_title"
+                    android:layout_toEndOf="@+id/country"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:textColor="@color/colorTitle"
+                    android:textSize="15sp"
+                    android:layout_toStartOf="@+id/profile_frag_country"
+                    android:text="@string/profile_country_title"
+                    android:textStyle="bold"
+                    android:layout_centerVertical="true"/>
+
+                <TextView
+                    android:id="@+id/profile_frag_country"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="40dp"
+                    android:ellipsize="marquee"
+                    android:maxLength="19"
+                    android:singleLine="true"
+                    android:text="France"
+                    android:textColor="@color/colorTitle"
+                    android:textSize="15sp" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:background="@color/colorDivider">
+            </View>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp">
+
+                <ImageView
+                    android:id="@+id/birthday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="24dp"
+                    android:src="@drawable/ic_birthday" />
+
+                <TextView
+                    android:layout_toEndOf="@+id/birthday"
+                    android:id="@+id/profile_frag_birthday_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_toStartOf="@+id/profile_frag_birthday"
+                    android:textColor="@color/colorTitle"
+                    android:textSize="15sp"
+                    android:text="@string/profile_birthdate_title"
+                    android:textStyle="bold"
+                    android:layout_centerVertical="true"/>
+
+                <TextView
+                    android:id="@+id/profile_frag_birthday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="40dp"
+                    android:layout_marginTop="10dp"
+                    android:ellipsize="end"
+                    android:maxLength="22"
+                    android:maxLines="1"
+                    android:text="06/02/1996"
+                    android:textColor="@color/colorTitle"
+                    android:textSize="15sp" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:background="@color/colorDivider">
+            </View>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp">
+
+                <ImageView
+                    android:id="@+id/email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="24dp"
+                    android:src="@drawable/ic_email" />
+
+                <TextView
+                    android:layout_toEndOf="@+id/email"
+                    android:id="@+id/profile_frag_email_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_toStartOf="@+id/profile_frag_email"
+                    android:textColor="@color/colorTitle"
+                    android:textSize="15sp"
+                    android:text="@string/profile_email_title"
+                    android:textStyle="bold"
+                    android:layout_centerVertical="true"/>
+
+                <TextView
+                    android:id="@+id/profile_frag_email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="40dp"
+                    android:layout_marginTop="10dp"
+                    android:ellipsize="marquee"
+                    android:singleLine="true"
+                    android:text="example@example.com"
+                    android:textColor="@color/colorTitle"
+                    android:textSize="15sp" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

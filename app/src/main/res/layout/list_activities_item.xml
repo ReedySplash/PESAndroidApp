@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@drawable/listactivities_drawable">
+
+    <ImageView
+        android:id="@+id/listactivities_image"
+        android:src="@drawable/bcn"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:contentDescription="Icon" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listactivities_background"
+        android:background="@drawable/list_activities_gradient"
+        android:layout_alignBottom="@id/listactivities_image">
+        <TextView
+            android:id="@+id/listactivities_text"
+            android:alpha="1.0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:textColor="@color/colorButtons"
+            android:text="Barcelona Tour"
+            android:layout_marginStart="20dp"
+            android:textStyle="bold"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/listactivities_date"
+            android:layout_below="@id/listactivities_text"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="5dp"
+            android:text="25/5/2018"
+            android:textColor="@color/colorButtons"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+</RelativeLayout>
